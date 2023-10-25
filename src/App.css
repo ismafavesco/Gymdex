@@ -134,6 +134,7 @@ body {
 
   .navbar-link {
     transition: transform 0.3s ease-in-out;
+    scroll-behavior: smooth;
   }
 
   .navbar-link:hover {
@@ -289,6 +290,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 17px;
+  scroll-behavior: smooth;
 }
 
 .navbar-link.home-link {
@@ -308,6 +310,7 @@ body {
 
   .navbar-link {
     font-size: 14px;
+    scroll-behavior: smooth;
   }
 }
   /* NavBar Styles END */

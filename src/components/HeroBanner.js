@@ -16,7 +16,7 @@ const HeroBanner = () => {
   return (
     <Box
       sx={{
-        mt: { lg: "310px", xs: "140px" },
+        mt: { lg: "310px", xs: "120px" },
         ml: { sm: "50px" },
         mb: { lg: "0px", xs: "0px" },
         p: { lg: "20px", xs: "30px" },
@@ -70,7 +70,7 @@ const HeroBanner = () => {
       <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
       <Box
         position="absolute"
-        bottom="70px"
+        bottom="110px"
         left="47%"
         transform="translateX(-50%)"
         sx={{

@@ -101,14 +101,14 @@ const Navbar = () => {
         }}
       >
         <List>
-          <ListItem button onClick={handleClose} style={{ padding: '0', borderBottom: "2px solid white"  }}>
-            <Link to ="/" style={linkStyle}>Home</Link>
+          <ListItem button onClick={handleClose} style={{ padding: '1rem', borderBottom: "2px solid white"  }}>
+            <Link to ="/" className="navbar-link">Home</Link>
           </ListItem>
-          <ListItem button onClick={handleClose} style={{ padding: '0', borderBottom: "2px solid white" }}>
-            <a href="/exercises" style={linkStyle}>Exercises</a>
+          <ListItem button onClick={handleClose} style={{ padding: '1rem', borderBottom: "2px solid white" }}>
+            <a href="#exercises" className="navbar-link">Exercises</a>
           </ListItem>
-          <ListItem button onClick={handleClose} style={{ padding: '0', }}>
-            <a href="https://www.buymeacoffee.com/ismafavesco" target="_blank" style={linkStyle}>Buy me a coffee?</a>
+          <ListItem button onClick={handleClose} style={{ padding: '1rem', }}>
+            <a href="https://www.buymeacoffee.com/ismafavesco" target="_blank" className="navbar-link">Buy me a coffee?</a>
           </ListItem>
         </List>
       </Popover>
