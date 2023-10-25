@@ -105,7 +105,7 @@ const Navbar = () => {
             <Link to ="/" style={linkStyle}>Home</Link>
           </ListItem>
           <ListItem button onClick={handleClose} style={{ padding: '0', borderBottom: "2px solid white" }}>
-            <a href="#exercises" style={linkStyle}>Exercises</a>
+            <a href="/exercises" style={linkStyle}>Exercises</a>
           </ListItem>
           <ListItem button onClick={handleClose} style={{ padding: '0', }}>
             <a href="https://www.buymeacoffee.com/ismafavesco" target="_blank" style={linkStyle}>Buy me a coffee?</a>
