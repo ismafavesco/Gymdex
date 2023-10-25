@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4a505e6.css",
-    "main.js": "/static/js/main.968e5490.js",
-    "static/media/Logo.png": "/static/media/Logo.2f6c63d9b3c82721bdd6.png",
-    "static/media/banner.png": "/static/media/banner.8f0b08bd9eb4d06f80ec.png",
-    "static/media/down-arrow.png": "/static/media/down-arrow.f1491aa13eaf20d3a105.png",
-    "static/media/gym.png": "/static/media/gym.6e701417c428e2fbc267.png",
-    "index.html": "/index.html",
-    "main.b4a505e6.css.map": "/static/css/main.b4a505e6.css.map",
-    "main.968e5490.js.map": "/static/js/main.968e5490.js.map"
+    "main.css": "/gymdex/static/css/main.b4a505e6.css",
+    "main.js": "/gymdex/static/js/main.1179652b.js",
+    "static/media/Logo.png": "/gymdex/static/media/Logo.2f6c63d9b3c82721bdd6.png",
+    "static/media/banner.png": "/gymdex/static/media/banner.8f0b08bd9eb4d06f80ec.png",
+    "static/media/down-arrow.png": "/gymdex/static/media/down-arrow.f1491aa13eaf20d3a105.png",
+    "static/media/gym.png": "/gymdex/static/media/gym.6e701417c428e2fbc267.png",
+    "index.html": "/gymdex/index.html",
+    "main.b4a505e6.css.map": "/gymdex/static/css/main.b4a505e6.css.map",
+    "main.1179652b.js.map": "/gymdex/static/js/main.1179652b.js.map"
   },
   "entrypoints": [
     "static/css/main.b4a505e6.css",
-    "static/js/main.968e5490.js"
+    "static/js/main.1179652b.js"
   ]
 }
