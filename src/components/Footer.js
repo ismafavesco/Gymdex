@@ -16,7 +16,7 @@ const Footer = () => (
       </a>
     </div>
     <div>
-      © {new Date().getFullYear()} Ismael Favela. All rights reserved.
+      © {new Date().getFullYear()} Ismael Favela. All rights reserved. Inspired by Javascript master.
     </div>
   </footer>
 );
