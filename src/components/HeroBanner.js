@@ -65,7 +65,7 @@ const HeroBanner = () => {
         }}
         fontSize="200px"
       >
-        Exercises
+        Gymdex
       </Typography>
       <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
       <Box
