@@ -11,21 +11,7 @@ import Footer from "./components/Footer";
 
 
 
-
-
 const App = () => {
-  return (
-      <SignedIn>
-        <Welcome />
-      </SignedIn>
-      <SignedOut>
-        <RedirectToSignIn />
-      </SignedOut>
-
-  );
-};
-
-const Welcome = () => {
   return (
     
     <>
