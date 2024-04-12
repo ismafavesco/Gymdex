@@ -1,10 +1,9 @@
 import React from "react";
 import "./Footer.css";
 
-// Component
 const Footer = () => (
   <footer className="footer">
-    <div style={{ marginBottom: "10px" }}>
+    <div className="footer-links">
       <a href="https://portfolio-ismafavesco.vercel.app" className="footer-link">
         About me
       </a>
@@ -15,9 +14,15 @@ const Footer = () => (
         Terms & Conditions
       </a>
     </div>
-    <div>
-      © {new Date().getFullYear()} Ismael Favela. All rights reserved. Inspired by Javascript master.
+    <div className="footer-copyright">
+      © {new Date().getFullYear()} Ismael Favela. All rights reserved.
     </div>
+    <span className="powered-by">
+      Powered by{' '}
+      <a href="https://favesco.tech" target="_blank" rel="noopener noreferrer">
+        Favesco
+      </a>
+    </span>
   </footer>
 );
 
