@@ -8,36 +8,10 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import {
-  ClerkProvider,
-  SignedIn,
-  SignedOut,
-  RedirectToSignIn,
-} from "@clerk/clerk-react";
 
 
-const clerkPubKey = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
-
-
-if (!process.env.REACT_APP_CLERK_PUBLISHABLE_KEY) {
-  throw new Error("Missing Publishable Key")
-}
 
 const App = () => {
-  return (
-    <ClerkProvider publishableKey={clerkPubKey}>
-      <SignedIn>
-        <Welcome />
-      </SignedIn>
-      <SignedOut>
-        <RedirectToSignIn />
-      </SignedOut>
-
-    </ClerkProvider>
-  );
-};
-
-const Welcome = () => {
   return (
     
     <>
